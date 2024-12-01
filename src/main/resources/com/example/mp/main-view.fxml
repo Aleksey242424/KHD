@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.text.Font?>
+<?import javafx.scene.text.Text?>
+
+<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="720.0" prefWidth="1280.0" style="-fx-background-color: #f2f2f2;" xmlns="http://javafx.com/javafx/23.0.1" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.example.mp.ControllerMainViwe">
+   <children>
+      <AnchorPane prefHeight="720.0" prefWidth="240.0" style="-fx-background-color: #FF7518;">
+         <children>
+            <AnchorPane layoutX="10.0" layoutY="137.0" prefHeight="6.0" prefWidth="220.0" style="-fx-background-color: #ffffff;" />
+            <Text layoutX="42.0" layoutY="60.0" stroke="WHITE" strokeType="OUTSIDE" strokeWidth="0.0" text="Monkey Power" textAlignment="CENTER" wrappingWidth="155.9639892578125">
+               <font>
+                  <Font name="Montserrat ExtraBold" size="36.0" />
+               </font>
+            </Text>
+            <Button fx:id="personalDatteBut" layoutX="10.0" layoutY="220.0" mnemonicParsing="false" prefHeight="42.0" prefWidth="220.0" style="-fx-background-color: #F7943C;" text="Персональные данные клиентов" textAlignment="CENTER" wrapText="true">
+               <font>
+                  <Font name="Montserrat SemiBold" size="12.0" />
+               </font>
+            </Button>
+            <Button fx:id="insideDateBankBut" layoutX="10.0" layoutY="280.0" mnemonicParsing="false" prefHeight="42.0" prefWidth="220.0" style="-fx-background-color: #F7943C;" text="Внутренние данные банка" textAlignment="CENTER" wrapText="true">
+               <font>
+                  <Font name="Montserrat SemiBold" size="12.0" />
+               </font>
+            </Button>
+            <Button fx:id="analiticDateButton" layoutX="10.0" layoutY="339.0" mnemonicParsing="false" prefHeight="42.0" prefWidth="220.0" style="-fx-background-color: #F7943C;" text="Аналитические данные" textAlignment="CENTER" wrapText="true">
+               <font>
+                  <Font name="Montserrat SemiBold" size="12.0" />
+               </font>
+            </Button>
+            <Button fx:id="docsButton" layoutX="10.0" layoutY="396.0" mnemonicParsing="false" prefHeight="42.0" prefWidth="220.0" style="-fx-background-color: #F7943C;" text="Регуляторные и комплаенс-документы" textAlignment="CENTER" wrapText="true">
+               <font>
+                  <Font name="Montserrat SemiBold" size="12.0" />
+               </font>
+            </Button>
+            <Button fx:id="InformationLessonsButton" layoutX="10.0" layoutY="455.0" mnemonicParsing="false" prefHeight="42.0" prefWidth="220.0" style="-fx-background-color: #F7943C;" text="Информационные материалы" textAlignment="CENTER" wrapText="true">
+               <font>
+                  <Font name="Montserrat SemiBold" size="12.0" />
+               </font>
+            </Button>
+         </children>
+      </AnchorPane>
+      <AnchorPane layoutX="271.0" layoutY="42.0" prefHeight="386.0" prefWidth="984.0" style="-fx-background-color: #ffffff;">
+         <children>
+            <Text fx:id="mainText" fill="#ff7518" layoutX="43.0" layoutY="82.0" stroke="WHITE" strokeType="OUTSIDE" strokeWidth="0.0" text="Welcome in a new app from Monkey Power stubio" textAlignment="CENTER" wrappingWidth="670.9639892578125">
+               <font>
+                  <Font name="Montserrat ExtraBold" size="36.0" />
+               </font>
+            </Text>
+         </children>
+      </AnchorPane>
+   </children>
+</AnchorPane>
